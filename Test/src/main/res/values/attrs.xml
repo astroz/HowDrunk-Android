@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleView">
+        <attr name="showBubbles" format="boolean" />
+        <attr name="bubbleSpeed" format="enum">
+            <enum name="still" value="0"/>
+            <enum name="slow" value="1"/>
+            <enum name="fast" value="2"/>
+        </attr>
+        <attr name="bubbleCapacity" format="enum">
+            <enum name="low" value="0"/>
+            <enum name="medium" value="1"/>
+            <enum name="high" value="2"/>
+        </attr>
+        <attr name="viewHeight" format="dimension">
+            <enum name="fill_parent" value="-1"/>
+        </attr>
+        <attr name="viewWidth" format="dimension">
+            <enum name="fill_parent" value="-1"/>
+        </attr>
+    </declare-styleable>
+</resources>

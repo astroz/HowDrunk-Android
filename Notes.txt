@@ -1,0 +1,5 @@
+Stuff to do:
+
+- Create data storage scheme.
+- Write data importer class.
+-
